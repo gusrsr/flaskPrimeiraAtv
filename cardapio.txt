@@ -1,0 +1,11 @@
+Hambúrguer;24.90;hamburguer.webp
+X-Burguer;19.90;xburguer.png
+X-Salada;22.90;xsalada.png
+X-Bacon;27.90;xbacon.png
+Batata Frita;15.00;batatafrita.png
+Cachorro-Quente;18.90;cachorroquente.png
+Milkshake;12.90;milkshake.webp
+Refrigerante;6.00;refrigerante.png
+a;22;eb7a0090_hate.png;
+iwakura;15;45052c79_redbanner.png;
+testy;21;fc4f6b1b_a_machine_wallpaper.png;
