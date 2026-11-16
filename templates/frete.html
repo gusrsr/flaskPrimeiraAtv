@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block titulo %}
+Calculo de frete
+{% endblock %}
+{% block conteudo %}
+  <form action='/frete.html' method='POST'>
+    <input type="number" name="valorCompra" placeholder="Digite aqui o valor da sua compra: ">
+    <input type="number" name="valorDistancia" placeholder="Digite aqui a distancia: ">
+    <button type="submit">Enviar</button>
+  </form>
+    <a href="/">Voltar</a>
+    {% if cal2 is defined %}
+    <p>Valor: {{valorCompra}}</p>
+    <p>Frete: {{cal}}</p>
+    <p>Total: {{cal2}}</p>
+    {% endif %}
+{% endblock %}

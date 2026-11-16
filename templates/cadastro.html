@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<form action="/cadastro.html" method="POST"
+  enctype='multipart/form-data'>
+  <label>Nome: <label>
+    <input type="text" name="nome" required>
+  <label>Preco: <label>
+    <input type="number" name="preco" min='0' step='0.01' required>
+  <label>Imagem: <label>
+    <input type="file" name="imagem" required>
+  <button type="submit">Cadastrar</button>
+</form>
+{% endblock %}
